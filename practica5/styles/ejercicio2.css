@@ -1,0 +1,169 @@
+h1,
+h2,
+h3,
+nav,
+footer,
+.act {
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+body {
+    font-family: Georgia, Cambria;
+    font-size: 100%; 
+    background-color: whitesmoke;
+    background-image: url('/practica5/images/background-pattern.png'); 
+}
+
+h1 {
+    padding-left: 6em;
+}
+
+h2 {
+    font-size: 1.125rem;
+}
+
+h3 {
+    font-size: 1.125em;
+    border-bottom: solid 1pt #999999;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+}
+
+p {
+    font-size: 1em;
+}
+
+a:visited {
+    color: #BB78BB;
+}
+a:link {
+    font-weight: bold;
+    color: #47B3F7;
+}
+a[href^="mailto"] {
+    background: url('/practica5/images/email.png') no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+a[href^="tel"] {
+    padding-left: 1em;
+}
+header {
+    background-image: url('/practica5/images/header-background.png');
+    background-repeat: repeat;
+}
+
+
+nav#firstMenu {
+    background-color: #283649;
+    font-size: 0.85em;
+    text-align: right;
+    padding-right: 6em;
+}
+
+nav#secondaryMenu {
+    background-color: #DAE1E8;
+    font-size: 1em;
+    padding-left: 6em;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav  {
+    padding: 0.50em;
+}
+
+
+nav a {
+    padding: 0.25em;
+}
+
+
+article div {
+    background-color: white;
+    text-align: center;
+    margin: 1.5em 6em 1.5em 6em;
+}
+
+article div img {
+    border: solid 1.5px #999999;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+/* Estilos para section */
+section {
+    background-color: white;
+    margin: 1em 6em 1em 6em;
+    border: solid 1px #000000;
+}
+
+/* Estilos para h3 dentro de section */
+section h3 {
+    color: mintcream;
+    padding: 0.5em;
+    background-image: url('/practica5/images/header-background.png');
+    background-repeat: repeat;
+}
+
+/* Estilos para p dentro de section */
+section p {
+    margin-left: 0.5em;
+}
+
+/* Estilos para em dentro de section */
+section em {
+    color: #828275;
+}
+/* Estilos para ul dentro de div.act */
+div.act ul {
+    list-style: none;
+    display: inline;
+}
+
+/* Estilos para div.act */
+div.act {
+    background-color: #283649;
+    font-size: 0.75em;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+/* Estilos para a dentro de div.act */
+div.act a {
+    background-color: #DAE1E8;
+    padding: 0.1em 1em 0.1em 2em;
+    border: solid 1px #999999;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+/* Estilos para la clase Edit */
+.Edit {
+    background: url(/practica5/images/edit.png) no-repeat;
+    background-position: 0.25em 0.15em;
+}
+
+/* Estilos para la clase Flag */
+.Flag {
+    background: url(/practica5/images/flag.png) no-repeat;
+    background-position: 0.25em 0.15em;
+}
+
+/* Estilos para footer */
+footer {
+    background-color: #283649;
+    margin: 1em 6em 1em 6em;
+    padding: 0.5em;
+}
+
+/* Estilos para párrafos dentro de footer */
+footer p {
+    color: mintcream;
+    font-size: 0.875em;
+}
